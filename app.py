@@ -10,7 +10,7 @@ from flask_cors import CORS
 app = Flask(__name__, static_folder=None)
 CORS(app)
 
-FRONTEND_DIST = os.path.join(os.path.dirname(__file__), '..', 'fortend', 'dist')
+FRONTEND_DIST = os.path.join(os.path.dirname(__file__), 'dist')
 
 # ─── API 路由 ────────────────────────────────────────────────────────────────
 
